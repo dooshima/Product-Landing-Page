@@ -1,0 +1,131 @@
+/*################### Defaults ###################*/
+
+body{
+	line-height: 1;
+	margin:0;
+}
+label{
+	font-size: 35px;
+	font-weight: bolder;
+	color: green;
+
+}
+
+button{
+	color: #fff;
+	font-size: 12px;
+	font-weight: 200;
+	background-color: #0069ff;
+	display: block;
+	text-align: center;
+	padding: 15px 16px;
+	margin: auto;
+	border-radius: 7px;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+h1{
+	text-align: center;
+}
+
+/*########### mobile #############*/
+
+@media screen and (max-width: 680px){
+	
+
+	
+	div.col-4{
+	width: 100%;
+	margin: 0;
+	
+	}
+
+	div.box{
+		padding: 5px;
+		display: block;
+	}
+
+
+
+}
+
+
+
+
+/*############### custom styles######################*/
+
+
+
+div.box{
+	background-color: #fff;
+	text-align: center;
+	margin: 24px;
+	padding: 36px 24px 40px 24px;
+	border-radius: 7px;
+}
+
+
+/*##################### body tag #########################*/
+
+.container{
+	width: 100;
+	margin: auto;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.row::after{
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#main{
+	margin-top: 20px;
+}
